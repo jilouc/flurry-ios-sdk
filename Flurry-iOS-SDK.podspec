@@ -26,10 +26,8 @@ Pod::Spec.new do |s|
       'Flurry/FlurrySessionBuilder.h',
       'Flurry/FlurryConsent.h',
       'Flurry/FlurryEmpty.m'
-
     ]
 
-    ss.static_framework = true
     ss.platform   = :ios, '8.0'
     ss.frameworks = 'Foundation', 'SystemConfiguration', 'UIKit', 'Security'
     ss.weak_framework = 'WatchConnectivity', 'CoreLocation'
