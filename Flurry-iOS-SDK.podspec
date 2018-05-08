@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
 
     ]
 
+    ss.static_framework = true
     ss.platform   = :ios, '8.0'
     ss.frameworks = 'Foundation', 'SystemConfiguration', 'UIKit', 'Security'
     ss.weak_framework = 'WatchConnectivity', 'CoreLocation'
