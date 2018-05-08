@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc = false
   s.platforms   = { :ios => "8.0", :watchos => "2.0" }
   s.default_subspec = 'FlurrySDK'
+  s.static_framework = true
 
   s.subspec 'FlurrySDK' do |ss|
     ss.source_files = [
